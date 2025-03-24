@@ -11,11 +11,10 @@ function ListTeacher({ }: Props) {
 
   const { 
     listTeachers, 
-    addTeacher,
     openModalFormTeacher,
     setOpenModalFormTeacher, 
   } = useListTeacher({})
-  
+
   const style = useStyleListTeacher({})
 
   return (

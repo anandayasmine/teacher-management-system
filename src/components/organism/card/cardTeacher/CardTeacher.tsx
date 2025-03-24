@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeTeacher } from '../../list/listTeacher/utils/types'
-import { Card, CardHeader, Stack } from '@mui/material'
+import { Card, CardHeader } from '@mui/material'
 
 type Props = TypeTeacher & {
 
